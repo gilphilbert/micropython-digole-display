@@ -1,4 +1,4 @@
-#Micropython driver for Digole Smart TFT
+# Micropython driver for Digole Smart TFT
 A Micropython driver for the Digole set of "smart" TFTs that can use UART (serial), I2C or SPI. They ship with UART by default - this library currently only supports serial mode.
 
 Notes:
@@ -10,7 +10,7 @@ Notes:
 Connect VCC / GND to 3v and GND of NodeMCU v3
 Connect RX port of Digole display to D4 on the NodeMCU v3
 
-##
+## Usage
 I use ampy, do whatever feels natural:
 ```
 ampy put digole_display.py
